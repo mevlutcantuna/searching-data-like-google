@@ -1,0 +1,13 @@
+.search-button{
+  width: 138px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: rgba(32, 64, 128, 1);
+  color: white;
+  cursor: pointer;
+  border: none;
+
+  &:hover{
+    background-color: rgba(79, 117, 194, 1);
+  }
+}

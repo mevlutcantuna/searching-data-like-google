@@ -1,0 +1,45 @@
+.result-card{
+  margin-bottom: 1.25rem;
+  padding: 0.5rem ;
+  cursor: pointer;
+  max-width: 56rem;
+
+  & hr{
+    height: 0.5px;
+    color: black;
+    background-color: black;
+  }
+
+  &:hover{
+    background: rgba(196, 196, 196, 1);
+    border-radius: 4px;
+
+    .result-card__bottom{
+      color: white;
+    }
+  }
+
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    span{
+      width: 50%;
+    }
+  }
+
+  &__bottom{
+    font-size: 12px;
+    color: #686868;
+    line-height: 14px;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  &__line{
+    border-bottom: 1px solid rgba(88, 88, 88, 1);
+  }
+}

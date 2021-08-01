@@ -1,0 +1,44 @@
+.order-by{
+  position: relative;
+
+  &__title{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    cursor: pointer;
+
+    span{
+      margin-right: 0.25rem;
+    }
+  }
+
+  &__modal{
+    width: 10rem;
+    height: 9rem;
+    position: absolute;
+    border: 1px solid rgba(72, 72, 72, 1);
+    color: black;
+    font-weight: 700;
+    top: 3.5rem;
+    right: 0;
+    padding: 0.75rem;
+    border-radius: 4px;
+    background-color: white;
+
+    & li{
+      cursor: pointer;
+      margin-bottom: 0.25rem;
+      line-height: 16px;
+      padding: 0.35rem 0.25rem;
+      font-size: 14px;
+      border-radius: 4px;
+
+      &:hover{
+        background-color: #C4C4C4;
+        color: white;
+      }
+    }
+  }
+}

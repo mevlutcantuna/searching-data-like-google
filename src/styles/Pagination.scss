@@ -1,0 +1,47 @@
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationButtons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: #484848;
+  font-weight: bold;
+  min-width: 36rem;
+}
+
+.paginationButtons a {
+  border: 1px solid #484848;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.previousButton{
+  width: 5.5rem;
+  height: 1.5rem;
+  border: 1px solid #484848;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nextButton{
+  width: 5.5rem;
+  height: 1.5rem;
+  border: 1px solid #484848;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.activeButton a{
+  background: rgba(32, 64, 128, 1);
+  color: white;
+}
+
+.disableButton a{
+  cursor: auto;
+}
